@@ -6,14 +6,14 @@ body{
 h1{
   text-align: center;
 }
-.caixa1 {
+.caixalixo {
    position: absolute;
-   background: rgb(99, 153, 28);
+   background: rgb(19, 105, 26);
    width: 100px;
    height: 100px;
-   color: #FFFFFF;
+   color: darkgreen;
    right: 0;
-   top:0;
+   bottom: 500px;
    font-family: 'Courier New', Courier, monospace;
 }
 .caixa2 {
@@ -21,7 +21,7 @@ h1{
    background: blue;
    width: 100px;
    height: 100px;
-   color: #FFFFFF;
+   color: green;
    right: 0;
    top:105px;
 }
@@ -30,7 +30,7 @@ h1{
    background: rgb(99, 153, 28);
    width: 100px;
    height: 100px;
-   color: #FFFFFF;
+   color: darkgreen;
    right: 105px;
    top: 0;
    font-family: 'Courier New', Courier, monospace;
@@ -40,7 +40,7 @@ h1{
    background: blue;
    width: 100px;
    height: 100px;
-   color: #FFFFFF;
+   color: #0c4607;
    right: 105px;
    top:105px;
 }
@@ -49,7 +49,7 @@ h1{
    background: rgb(169, 169, 199);
    width: 100px;
    height: 100px;
-   color: #FFFFFF;
+   color: #30660c;
    right:52px;
    top: 52px;
 }
@@ -74,7 +74,7 @@ li {
 }
 li a {
    display: block;
-   color: rgb(255, 255, 255);
+   color: rgb(5, 80, 18);
    text-align: center;
    padding: 14px 16px;
    text-decoration: none; 
@@ -91,10 +91,10 @@ li a:hover {
    position: absolute;
    width: 90%;
    height: 200px;
-   background: rgb(224, 9, 178);
+   background: rgb(24, 90, 4);
    top: 50px;
    left: 0;
-   border-color: rgb(255, 255, 255);
+   border-color: rgb(6, 100, 13);
    border-width: 20px;
    border-style: solid;
    margin: 20px;
