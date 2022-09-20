@@ -12,10 +12,10 @@ h1{
   left: 0px;
   width: 90%;
   height: 150px;
-background-color: white;
+background-color: transparent;
 margin: 20px;
 border-width: 20px;
-border-color:white;
+border-color: transparent;
 border-style: solid;
 padding: 20px;
 display: flex;
@@ -27,14 +27,29 @@ justify-content: center;
    left: 0px;
    width: 90%;
    height: 150px;
- background-color: rgb(255, 255, 255);
+ background-color: transparent;
  margin: 20px;
  border-width: 20px;
- border-color:white;
+ border-color:transparent;
  border-style: solid;
  padding: 20px;
  display: flex;
  justify-content: center;
+}
+.caixapulsefire {
+   position: absolute;
+   bottom: -500px;
+   left: 20px;
+   width: 90%;
+   height: 150px;
+   background-color: transparent;
+   margin: 20px;
+   border-width: 20px;
+   border-color: transparent;
+   border-style: solid;
+   padding: 20px;
+   display: flex;
+   justify-content: center;
 }
 .caixa3 {
    position: absolute;
@@ -145,3 +160,4 @@ li a:hover {
    right: 0;
    z-index: 999;
 }
+
